@@ -1,0 +1,68 @@
+.Weather a {
+	color: #0f0f0f;
+	text-decoration: none;
+}
+
+.Weather a:hover {
+	text-decoration: underline;
+}
+
+.Weather .date {
+	text-align: center;
+	font-size: 15px;
+	font-weight: 800px;
+	line-height: 14px;
+}
+
+.Weather .weather-today {
+	max-width: 300px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.Weather .weather-today p {
+	margin: 0 auto;
+}
+
+.Weather .day {
+	font-size: 16px;
+	font-weight: 500;
+	padding-top: 10px;
+}
+
+.Weather .city {
+	color: #fd6d41;
+	font-weight: 900;
+	font-size: 28px;
+	line-height: 28px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.Weather .temperature {
+	font-size: 28px;
+	font-weight: 900;
+	color: #fd6d41;
+}
+
+.Weather .temperature img {
+	display: inline;
+	width: 40px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.Weather .weather-description {
+	color: #fd6d41;
+	font-size: 14px;
+}
+
+.Weather .other-infos {
+	font-size: smaller;
+}
+
+.Weather .units {
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 5px;
+}
