@@ -8,23 +8,16 @@ export default function App() {
 		<div className="App">
 			<div className="container">
 				<div className="header">
-					<div className="row">
-						<div className="col-xs-9 col-md-4">
-							<img src="img/logo.svg" alt="" />
-						</div>
-						<div className="col-xs-9 col-md-8">
-							<h1>Welcome to my weather&nbsp;app!</h1>
-						</div>
-					</div>
+					<h1>Welcome to my weather&nbsp;app!</h1>
 				</div>
 				<Weather />
-				<div className="change-city">
+				<div className="change-city text-center">
 					<h3>You don't live in Toulouse?</h3>
 					<p>🤷‍♀️ Too bad!</p>
 					<p>Just kidding. You can search your city right here:</p>
 					<form>
-						<div className="row">
-							<div className="col-6">
+						<div className="row justify-content-center">
+							<div className="col-2">
 								<div className="form-group">
 									<input
 										type="text"
@@ -37,7 +30,7 @@ export default function App() {
 									/>
 								</div>
 							</div>
-							<div className="col-6">
+							<div className="col-2">
 								<button type="submit" className="btn btn-primary mb-2">
 									<i className="fas fa-air-freshener"></i>&nbsp;Refresh
 								</button>
